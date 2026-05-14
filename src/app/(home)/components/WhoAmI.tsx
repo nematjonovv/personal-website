@@ -9,7 +9,7 @@ function WhoAmI() {
       <div className="container h-full grid grid-cols-2">
         <div className="h-full py-6">
           <Badge title="About_Me" />
-          <p className="font-semibold font-grotesk text-5xl mt-4">WHO AM I</p>
+          <h2 className="font-semibold font-grotesk text-5xl mt-4">WHO AM I</h2>
 
           <div className="pr-10 mt-10">
             <p className="text-xl text-(--text) leading-8 font-grotesk font-normal">
