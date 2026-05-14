@@ -14,9 +14,30 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "Hikmatillo Nematjonov's website",
-};
+  title: 'Hikmatillo Nematjonov — Frontend Developer',
+  description: 'Biznes uchun zamonaviy saytlar yasayman.',
+  keywords: ['fullstack developer tashkent', 'web developer uzbekistan', 'react developer', 'sayt yasash', "frontend developer"],
+  icons: {},
+  openGraph: {
+    title: 'Hikmatillo Nematjonov — Frontend Developer',
+    description: 'Biznes uchun zamonaviy saytlar yasayman.',
+    url: 'https://sizning-sayt.com',
+    siteName: 'Hikmatillo Nematjonov',
+    images: [
+      {
+        url: 'https://sizning-sayt.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
 
 export default function RootLayout({
   children,

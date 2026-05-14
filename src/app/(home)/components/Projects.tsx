@@ -16,7 +16,7 @@ function Projects() {
     return () => clearInterval(interval)
   },[])
   return (
-    <section className="bg-(--secondary) px-16 py-20 min-h-screen">
+    <section id="projects" className="bg-(--secondary) px-16 py-20 min-h-screen">
       <div className="w-full h-full container">
         <div className="flex items-center justify-between">
           <div className="flex gap-5 items-center">

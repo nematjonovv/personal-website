@@ -6,6 +6,7 @@ import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "@/src/components/Footer";
+import ScrollToTop from "@/src/components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Mail, SendHorizontal } from "lucide-react"
 export default function Contact() {
 
   return (
-    <section className="bg-[#E7C446] px-16 py-20 min-h-[60vh] flex flex-col justify-between">
+    <section id="contact" className="bg-[#E7C446] px-16 py-20 min-h-[60vh] flex flex-col justify-between">
 
       <div className="flex flex-col gap-4">
         <div className="border border-(--text) px-4 py-2 w-full bg-(--primary)">

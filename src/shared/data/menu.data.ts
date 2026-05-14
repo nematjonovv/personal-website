@@ -12,8 +12,8 @@ export const menu: MenuItem[] = [
     id: "stack"
   },
   {
-    title: "labs",
-    id: "labs"
+    title: "contact",
+    id: "contact"
   },
 ]
 
