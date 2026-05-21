@@ -1,7 +1,7 @@
-import { ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowDown, ArrowDownRight, ArrowUpRight, MapPin } from "lucide-react";
 
 function Hero() {
-  const tags = ['REACT', 'NEXT.JS', 'NODE', 'TYPESCRIPT', 'TAILWIND']
+  const tags = ['REACT', 'NEXT.JS', 'TYPESCRIPT', 'TAILWINDCSS', ]
   return (
     <section className="h-screen container">
       <div className="grid grid-cols-[3fr_2fr] h-full">
@@ -13,17 +13,16 @@ function Hero() {
               HIKMATILLO NEMATJONOV
             </h1>
             <p className="text-(--text) text-lg font-grotesk font-normal my-8 max-w-170">
-              Building interfaces that work. Focused on performance,
-              accessibility, and industrial-grade aesthetics.
+              Fullstack developer with a strong focus on <b className="bg-(--accent)/70 uppercase">frontend</b> 
             </p>
             <div className="flex gap-5 items-center">
-              <button className="flex items-center gap-2 border border(--text) text-(--text) font-mono font-bold text-sm h-12 px-8 uppercase bg-(--accent)">
+              <a href="#projects" className="flex items-center gap-2 border border(--text) text-(--text) font-mono font-bold text-sm h-12 px-8 uppercase bg-(--accent)">
                 VIEW WORK
-                <ArrowUpRight size={16} />
-              </button>
-              <button className="flex items-center gap-2 border border(--text) text-(--text) font-mono font-bold text-sm h-12 px-6 uppercase">
+                <ArrowDown size={16} />
+              </a>
+              <a href="#contact" className="flex items-center gap-2 border border(--text) text-(--text) font-mono font-bold text-sm h-12 px-6 uppercase">
                 CONTACT
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-15">
