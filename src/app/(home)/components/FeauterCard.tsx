@@ -25,9 +25,9 @@ function FeaturedCard({ project }: { project: Project }) {
       </div>
 
       {/* card body */}
-      <div className="grid grid-cols-2 lg:h-90 bg-[#1A1A1A]">
+      <div className="grid grid-cols-2 lg:h-100 bg-[#1A1A1A]">
         <div className="h-full p-5 overflow-hidden">
-          <img onClick={() => setIsOpen(true)} src={project.image} className="object-cover object-center h-full w-full" alt={project.title} />
+          <img onClick={() => setIsOpen(true)} src={project.image} className="object-cover object-top h-full w-full" alt={project.title} />
         </div>
         <div className="h-full p-5 flex flex-col justify-center gap-4">
           <h2 className="text-3xl font-bold font-grotesk text-(--primary)">{project.title}</h2>

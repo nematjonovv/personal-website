@@ -16,7 +16,7 @@ export const projects: Project[] = [
       'Makon Interior Design Studio — a business website I built for an interior design studio. It supports multiple languages, has a dark/light mode toggle, and works cleanly across all screen sizes. I also handled the UI/UX design from scratch.',
     tags: ['NEXT.JS', 'TAILWINDCSS',"NODEJS", "EXPRESSJS","POSTGRESQL"],
     url: 'https://makondesign.uz',
-    image: '/images/project2.png',
+    image: '/images/project1.png',
     featured: true,
   },
 ]
