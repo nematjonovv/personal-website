@@ -25,13 +25,13 @@ function FeaturedCard({ project }: { project: Project }) {
       </div>
 
       {/* card body */}
-      <div className="grid grid-cols-2 h-90 bg-[#1A1A1A]">
+      <div className="grid grid-cols-2 lg:h-90 bg-[#1A1A1A]">
         <div className="h-full p-5 overflow-hidden">
           <img onClick={() => setIsOpen(true)} src={project.image} className="object-cover object-center h-full w-full" alt={project.title} />
         </div>
         <div className="h-full p-5 flex flex-col justify-center gap-4">
           <h2 className="text-3xl font-bold font-grotesk text-(--primary)">{project.title}</h2>
-          <p className="text-[#555555] font-grotesk text-lg leading-6 max-w-100 mt-4 mb-8">{project.description}
+          <p className="text-[#555555] font-grotesk text-lg leading-6 max-w-150 mt-4 mb-8">{project.description}
           </p>
           <Link href={project.url} className="bg-(--accent) text-(--text) w-full py-6 flex items-center justify-center uppercase text-sm font-mono font-bold" target="_blank" rel="noopener noreferrer">
             View Project <ArrowUpRight />

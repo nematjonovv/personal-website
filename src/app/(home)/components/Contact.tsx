@@ -21,7 +21,7 @@ export default function Contact() {
       <div className="grid grid-cols-2 gap-4 mt-16">
 
         <a
-          href={"t.me/nematjonovv"}
+          href="https://t.me/hikmatillonematjonov"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white flex items-center justify-between px-6 py-5 group hover:bg-black transition-colors duration-300"
@@ -33,7 +33,7 @@ export default function Contact() {
                 Telegram
               </span>
               <span className="text-sm font-mono uppercase font-bold tracking-widest group-hover:text-white">
-                @nematjonovv
+                @hikmatillonematjonov
               </span>
             </div>
           </div>
