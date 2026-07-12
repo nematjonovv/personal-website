@@ -74,7 +74,7 @@ export const projects: Project[] = [
     tags: ['NEXT.JS', 'TAILWINDCSS', 'NODEJS', 'EXPRESSJS', 'POSTGRESQL'],
 
     image: '/images/makon/cover.png',
-    gallery: ["/images/project1.png", "/images/project1.png"],
+    gallery: ["/images/makon/gallery/glr1.png", "/images/makon/gallery/glr2.png","/images/makon/gallery/glr3.png"],
 
     links: [{ label: 'Live Demo', url: 'https://makondesign.uz' }],
     url: 'https://makondesign.uz',
@@ -117,7 +117,7 @@ export const projects: Project[] = [
     tags: ['NEXT.JS', 'TYPESCRIPT', 'TAILWINDCSS', 'SHADCN/UI', 'NODEJS', 'POSTGRESQL', 'PRISMA', "CLAUDE CODE"],
 
     image: '/images/devjournal/cover.png',
-    gallery: [],
+    gallery: ['/images/devjournal/gallery/glr1.png','/images/devjournal/gallery/glr2.png','/images/devjournal/gallery/glr3.png'],
 
     links: [
       { label: 'Live Demo', url: 'https://devjournal-webapp.vercel.app/' },
