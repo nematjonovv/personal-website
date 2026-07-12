@@ -16,8 +16,8 @@ const rowTwo = stack
 
 const Separator = () => <span className="mx-2 sm:mx-4 text-[#E7C446]">✦</span>
 
-const BASE_SPEED = 40
-const TRANSITION_TIME = 0.7
+const BASE_SPEED = 70
+const TRANSITION_TIME = 0.4
 
 function Item({ item }: { item: string }) {
   return (
