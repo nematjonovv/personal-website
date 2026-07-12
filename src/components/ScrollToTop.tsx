@@ -2,9 +2,11 @@
 
 import { ArrowUp } from 'lucide-react'
 import { useState, useEffect } from 'react'
+import { useLenis } from 'lenis/react'
 
 export default function ScrollToTop() {
   const [visible, setVisible] = useState(false)
+  const lenis = useLenis()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,7 +17,7 @@ export default function ScrollToTop() {
   }, [])
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    lenis?.scrollTo(0, { duration: 1.2 })
   }
 
   if (!visible) return null

@@ -35,14 +35,21 @@ function FeaturedCard({ project }: { project: Project }) {
           </p>
 
           <div className="flex flex-wrap gap-2 mb-2 sm:mb-4">
-            {project.tags.map((tag) => (
-              <span
-                key={tag}
-                className="border border-zinc-700 text-zinc-400 px-2.5 py-1 text-[10px] sm:text-xs font-mono tracking-widest"
-              >
-                {tag}
-              </span>
-            ))}
+            {project.tags.map((tag) => {
+              const isClaude = tag.toUpperCase().includes('CLAUDE')
+              return (
+                <span
+                  key={tag}
+                  className={
+                    isClaude
+                      ? "border border-[#D97757]/40 bg-[#D97757]/10 text-[#D97757] px-3 py-1.5 text-xs font-mono tracking-widest"
+                      : "border border-zinc-700 text-zinc-400 px-3 py-1.5 text-xs font-mono tracking-widest"
+                  }
+                >
+                  {tag}
+                </span>
+              )
+            })}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 w-full">

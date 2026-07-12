@@ -48,7 +48,6 @@ function Terminal() {
             onChange={e => setInput(e.target.value)}
             maxLength={50}
             className="absolute opacity-0 w-0 h-0"
-            autoFocus
           />
         </div>
 
